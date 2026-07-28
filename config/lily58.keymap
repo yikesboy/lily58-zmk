@@ -23,10 +23,10 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp DE_N1               &kp DE_N2               &kp DE_N3              &kp DE_N4                  &kp DE_N5                                          &kp DE_N6  &kp DE_N7                   &kp DE_N8            &kp DE_N9            &kp DE_N0        &kp DE_GRAVE
-&kp TAB    &kp DE_Q                &kp DE_W                &kp DE_E               &kp DE_R                   &longPress LG(T) DE_T                              &kp DE_Z   &kp DE_U                    &kp DE_I             &kp DE_O             &kp DE_P         &kp DE_MINUS
-&kp LCTRL  &HML LEFT_CONTROL DE_A  &HML LEFT_ALT LS(DE_S)  &HML LGUI DE_D         &HMShiftL LEFT_SHIFT DE_F  &kp DE_G                                           &kp DE_H   &HMShiftR RIGHT_SHIFT DE_J  &HMR RIGHT_GUI DE_K  &HMR RIGHT_ALT DE_L  &kp DE_O_UMLAUT  &underscoreDBTap
-&kp LSHFT  &kp DE_Y                &kp DE_X                &longPress LG(C) DE_C  &longPress LG(V) DE_V      &kp DE_B               &kp DE_LBKT    &kp DE_RBKT  &kp DE_N   &kp DE_M                    &kp DE_COMMA         &kp DE_DOT           &kp DE_FSLH      &kp RSHFT
+&kp ESC    &kp DE_N1               &kp DE_N2               &kp DE_N3              &kp DE_N4                  &kp DE_N5                                          &kp DE_N6  &kp DE_N7                   &kp DE_N8            &kp DE_N9            &kp DE_N0        &kp DE_SZ
+&kp TAB    &kp DE_Q  &kp DE_W  &kp DE_E  &kp DE_R  &kp DE_T &kp DE_Z  &kp DE_U  &kp DE_I  &kp DE_O  &kp DE_P  &kp DE_U_UMLAUT
+&kp LCTRL &kp DE_A &kp DE_S &kp DE_D &kp DE_F &kp DE_G &kp DE_H &kp DE_J &kp DE_K &kp DE_L &kp DE_O_UMLAUT &kp DE_A_UMLAUT
+&kp LSHFT &kp DE_Y &kp DE_X &kp DE_C &kp DE_V &kp DE_B               &kp DE_LBKT    &kp DE_RBKT  &kp DE_N   &kp DE_M                    &kp DE_COMMA         &kp DE_DOT           &kp DE_FSLH      &kp RSHFT
                                                            &kp LALT               &kp LGUI                   &mo 1                  &kp SPACE      &kp RET      &mo 2      &kp BSPC                    &kp RGUI
             >;
 
